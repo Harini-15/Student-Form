@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+    <link rel="stylesheet" href = "style.css">
+</head>
+<body>
+    <center><h1>STUDENT FORM</h1></center>
+    
+<center>
+<div class="first">
+    <table> 
+        <tr>
+            <td><b>Name</b></td> <td><input type="text" placeholder="John" id="name"></td>
+        </tr>
+        <tr>
+            <td><b>Age</b></td> <td><input type="number" placeholder=26 id="age"></td>
+        </tr>
+        <tr>
+            <td><b>Gender</b></td> <td><input type="radio" name="gender" value="Male">Male<input type="radio" name="gender" value="Female">Female</td>
+        </tr>
+        <tr>
+            <td><b>Course</b></td>
+            <td>
+                <select id="course">
+                    <option>Full Stack Development</option>
+                    <option>Web Development</option>
+                    <option>Machine Learning</option>
+                    <option>Artificial Intelligence</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><b>Email</b></td> <td><input type="email" placeholder="john26@gmail.com" id="email"></td>
+        </tr>
+    </table>
+    <button class="btn" onclick="addRow()">Save</button>
+</div>
+<div class="second">
+<table class="one" id="two">
+    <tr>
+        <th>NAME</th><th>AGE</th><th>GENDER</th><th>COURSE</th><th>EMAIL</th><th>ACTION</th>
+    </tr>
+</table>
+</div>
+</center>
+<script src="demo.js"></script>
+</body>
+</html>
+

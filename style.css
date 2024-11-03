@@ -1,0 +1,31 @@
+.first{
+    display:inline-block;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    padding: 5px;
+    margin:10px
+}
+table{
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+.btn{
+    background-color: lightseagreen;
+    width: 264px;
+    margin-top: 2px
+}
+.one{
+    border-collapse: collapse;
+    width:50%
+}
+.button{
+    color: white;
+    background-color: red;
+}
+.one th,td{
+    border:1px solid black;
+    padding: 8px;
+    text-align: left;
+}
